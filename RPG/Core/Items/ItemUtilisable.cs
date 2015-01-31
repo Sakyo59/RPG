@@ -16,28 +16,21 @@ namespace RPG.Core.Items
         
 
         private TypeItemUtilisable _typeItemUtilisable;
-        private int _pv;
-        private int _degat;
+        private int _effect;
 
         public TypeItemUtilisable TypeItemUtilisable
         {
             get { return _typeItemUtilisable; }
         }
 
-        public int Pv
+        public int Effect
         {
-            get { return _pv;}
+            get { return _effect;}
         }
 
-        public int Degat
+        public ItemUtilisable (string nom, string description, int effect, TypeItemUtilisable typeItemUtilisable) : base(nom, description)
         {
-            get { return _degat; }
-        }
-
-        public ItemUtilisable (string nom, string description, int pv, int degat, TypeItemUtilisable typeItemUtilisable) : base(nom, description)
-        {
-            _pv = pv;
-            _degat = degat;
+            _effect = effect;
             _typeItemUtilisable = typeItemUtilisable;
         }
 
