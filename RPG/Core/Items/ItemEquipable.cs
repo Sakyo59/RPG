@@ -26,6 +26,30 @@ namespace RPG.Core.Items
         private int _degatMagique;
         private int _armure;
 
+        public int Pv
+        {
+            get { return _pv;}
+        }
+        public int Mana
+        {
+            get { return _mana;}
+        }
+
+        public int DegatPhysique
+        {
+            get { return _degatPhysique;}
+        }
+
+        public int DegatMagique
+        {
+            get { return _degatMagique;}
+        }
+
+        public int Armure
+        {
+            get { return _armure; }
+        }
+
         public ItemEquipable(string nom, string description, int pv, int mana, int degatPhysique, int degatMagique, int armure, TypeItemEquipable typeItemEquipable) : base(nom, description)
         {
             _pv = pv;
