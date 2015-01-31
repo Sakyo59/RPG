@@ -34,5 +34,12 @@ namespace RPG.Core.Items
             get { return _degat; }
         }
 
+        public ItemUtilisable (string nom, string description, int pv, int degat, TypeItemUtilisable typeItemUtilisable) : base(nom, description)
+        {
+            _pv = pv;
+            _degat = degat;
+            _typeItemUtilisable = typeItemUtilisable;
+        }
+
     }
 }
