@@ -8,3 +8,5 @@ c:\users\renato\documents\visual studio 2013\Projects\RPG\RPG\bin\WindowsGL\Debu
 c:\users\renato\documents\visual studio 2013\Projects\RPG\RPG\obj\x86\Debug\RPG.csprojResolveAssemblyReference.cache
 c:\users\renato\documents\visual studio 2013\Projects\RPG\RPG\obj\x86\Debug\RPG.exe
 c:\users\renato\documents\visual studio 2013\Projects\RPG\RPG\obj\x86\Debug\RPG.pdb
+C:\Users\renato\Documents\GitHub\RPG\RPG\obj\x86\Debug\RPG.exe
+C:\Users\renato\Documents\GitHub\RPG\RPG\obj\x86\Debug\RPG.pdb
