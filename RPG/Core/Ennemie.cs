@@ -15,7 +15,7 @@ namespace RPG.Core
 
         public void PrendreDegats(int DegatsSubis)
         {
-            _pvActuel = _pvActuel - DegatsSubis;
+            _pvActuel = _pvActuel - (DegatsSubis - _armure/2);
         }
 
         public Ennemie(int pvMax, int manaMax, int force, int intel, int armure, string nom, int level, int degatPhysique, int degatMagique)
