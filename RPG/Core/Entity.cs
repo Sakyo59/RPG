@@ -7,5 +7,9 @@ namespace RPG.Core
 {
     class Entity
     {
+        private int _pv;
+        private int _force;
+        private int _intel;
+
     }
 }
